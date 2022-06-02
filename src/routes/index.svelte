@@ -1,2 +1,18 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import Nav from "./nav.svelte";
+  import NewEvent from "./new-event.svelte";
+  import Calendar from "./calendar.svelte";
+  import Events from "./events.svelte";
+</script>
+
+<body>
+  <h1>Get-together!</h1>
+  <Nav />
+  <NewEvent />
+  <Calendar />
+  <Events />
+</body>
+
+<style>
+
+</style>
